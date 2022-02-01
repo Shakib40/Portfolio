@@ -10,6 +10,8 @@ function createLinks() {
 }
 
 function ContactMe() {
+
+
   return (
     <div className="contactMe__container" id="contact">
       <div className="contactMe__data__links">
@@ -17,7 +19,7 @@ function ContactMe() {
           <p>Patna, Bihar</p>
           <p>Shakib Jilani</p>
           <p>shakibjilani@gmail.com</p>
-          <p> <span><FaGithub /></span> <span><FaLinkedin /></span> </p>
+          <p> <a href="https://github.com/Shakib40" target="_blank" rel="noreferrer"><span ><FaGithub /> </span></a>  <a href="https://www.linkedin.com/in/shakib-jilani/" target="_blank" rel="norefer"><span> <FaLinkedin /></span> </a> </p>
         </div>
         <div>
           {createLinks()}

@@ -15,11 +15,26 @@
   text-transform: uppercase;
 }
 
+.contactMe__data__links span {
+  font-size: 26px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.contactMe__data__links p a:hover:nth-child(1) {
+  color: black;
+}
+
+.contactMe__data__links p a:hover:nth-child(2) {
+  color: #0e76a8;
+}
+
+
 .contactMe__data__links a:hover {
   color: var(--light-color);
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   .contactMe__data__links {
     flex-direction: column;
   }
