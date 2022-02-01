@@ -33,7 +33,7 @@ function Portfolio() {
         <a id="portfolio__modal__link" href={data.link} target="_blank" rel="noreferrer">Go to site</a>
         <Modal.Footer>
           <div>Technologies used: </div>
-          <p style={{ fontSize: '0.7rem', marginRight: 'auto'}}>{data.tech}</p>
+          <p style={{ fontSize: '0.7rem', marginRight: 'auto' }}>{data.tech}</p>
           <Button onClick={() => setModalShow(false)}>Close</Button>
         </Modal.Footer>
       </Modal>
@@ -64,9 +64,9 @@ function Portfolio() {
   return (
     <div className="portfolio__main__container" id="portfolio">
       <h1>PORTFOLIO</h1>
-      <p>This is my Github page
+      {/* <p>This is my Github page
         <a href="https://github.com/Shakib40" target="_blank" rel="noreferrer">https://github.com/Shakib40</a>
-      </p>
+      </p> */}
       <Container fluid="lg" style={{ padding: '2rem 0' }}>
         <Row>
           {mapped}
