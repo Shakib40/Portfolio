@@ -9,7 +9,7 @@ import Reliance from '../images/projectsicon/Reliance.gif';
 const portfolioData = [
   {
     image:  Nordstrom,
-    link: '',
+    link: 'https://nordstrom-clone-zeta.vercel.app/',
     desc: 'We were a team of 5 from Masai Web-12 batch worked on cloning of Nordstrom webpage as part of our Fifth unit construct week. Our project demonstrates a basic flow of and E-Commerce page were users can purchase products.',
     summary: 'Nordstrom, Inc. is an American luxury department store chain. Founded in 1901 by John W. Nordstrom and Carl F. Wallin, it originated as a shoe store and evolved into a full-line retailer with departments for clothing, footwear, handbags, jewelry, accessories, cosmetics, and fragrances.',
     tech: 'REACT | NODE-JS | EXPRESS-JS | MONGODB | NPM PACKAGES | MATERIAL UI'
